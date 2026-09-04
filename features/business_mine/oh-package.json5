@@ -1,0 +1,21 @@
+{
+  "name": "business_mine",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "lib_foundation": "file:../../commons/lib_foundation",
+    "module_auth": "file:../../components/module_auth",
+    "membership": "file:../../components/membership",
+    "collect_personal_info": "file:../../components/collect_personal_info",
+    "aggregated_login": "file:../../components/aggregated_login",
+    "notice_center": "file:../../components/notice_center",
+    "feedback": "file:../../components/feedback",
+    "app_setting": "file:../../components/app_setting",
+    "@tencent/wechat_open_sdk": "1.0.14",
+    "address_management": "file:../../components/address_management",
+    "coupons": "file:../../components/coupons"
+  }
+}

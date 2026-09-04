@@ -1,0 +1,14 @@
+{
+  // 仅作为字段模板，真实证书文件和密码不要提交到代码仓库。
+  "name": "default",
+  "type": "HarmonyOS",
+  "material": {
+    "certpath": "<path-to-ohos-app-release-cert.cer>",
+    "profile": "<path-to-ohos-app-release-profile.p7b>",
+    "storeFile": "<path-to-ohos-app-release-key.p12>",
+    "storePassword": "<keystore-password>",
+    "keyAlias": "<key-alias>",
+    "keyPassword": "<key-password>",
+    "signAlg": "SHA256withECDSA"
+  }
+}

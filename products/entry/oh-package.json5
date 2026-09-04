@@ -1,0 +1,18 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "快递模板元服务入口",
+  "main": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "lib_foundation": "file:../../commons/lib_foundation",
+    "business_mine": "file:../../features/business_mine",
+    "collect_personal_info": "file:../../components/collect_personal_info",
+    "coupons": "file:../../components/coupons",
+    "app_setting": "file:../../components/app_setting",
+    "membership": "file:../../components/membership",
+    "module_auth": "file:../../components/module_auth",
+    "module_advertisement": "file:../../components/module_advertisement",
+    "notice_center": "file:../../components/notice_center"
+  }
+}

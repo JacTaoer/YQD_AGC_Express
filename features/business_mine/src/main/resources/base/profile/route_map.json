@@ -1,0 +1,44 @@
+{
+  "routerMap": [
+    {
+      "name": "QuickLoginPage",
+      "pageSourceFile": "src/main/ets/pages/QuickLoginPage.ets",
+      "buildFunction": "QuickLoginPageBuilder"
+    },
+    {
+      "name": "PersonalInformationPage",
+      "pageSourceFile": "src/main/ets/pages/PersonalInformationPage.ets",
+      "buildFunction": "PersonalInformationPageBuilder"
+    },
+    {
+      "name": "CouponPage",
+      "pageSourceFile": "src/main/ets/pages/CouponPage.ets",
+      "buildFunction": "buildCouponPage"
+    },
+    {
+      "name": "PrivacyPage",
+      "pageSourceFile": "src/main/ets/pages/PrivacyPage.ets",
+      "buildFunction": "PrivacyPageBuilder"
+    },
+    {
+      "name": "SettingPage",
+      "pageSourceFile": "src/main/ets/pages/SettingPage.ets",
+      "buildFunction": "SettingPageBuilder"
+    },
+    {
+      "name": "SettingPrivacyPage",
+      "pageSourceFile": "src/main/ets/pages/SettingPrivacyPage.ets",
+      "buildFunction": "settingPrivacyPageBuilder"
+    },
+    {
+      "name": "PurchasePage",
+      "pageSourceFile": "src/main/ets/pages/PurchasePage.ets",
+      "buildFunction": "PurchasePageBuilder"
+    },
+    {
+      "name": "RealNameAuthPage",
+      "pageSourceFile": "src/main/ets/pages/RealNameAuthPage.ets",
+      "buildFunction": "RealNameAuthPageBuilder"
+    }
+  ]
+}

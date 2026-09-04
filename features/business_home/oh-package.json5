@@ -1,0 +1,15 @@
+{
+  "name": "business_home",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "lib_foundation": "file:../../commons/lib_foundation",
+    "module_template": "file:../../components/module_template",
+    "membership": "file:../../components/membership",
+    "coupons": "file:../../components/coupons",
+    "address_management": "file:../../components/address_management"
+  }
+}

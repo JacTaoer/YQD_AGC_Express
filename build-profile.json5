@@ -1,0 +1,153 @@
+{
+  "app": {
+    // DevEco Studio 可在首次运行时生成调试签名。发布/真机调试时，请将
+    // signingConfigs 替换为 huawei-signing.example.json5 中的真实值。
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "/Users/jac/.ohos/config/express/express.p12",
+          "storePassword": "00000018A7CFAD68BCF8F0BB216FF8446669CE4039D1A816E9F9857227663470A7A2FD79627F2FD2",
+          "keyAlias": "express.p12",
+          "keyPassword": "000000185547792E422CED235A91355A0C6074EB1B07EB23C8188D592678B1263F5E3C0D4B574AAF",
+          "signAlg": "SHA256withECDSA",
+          "profile": "/Users/jac/.ohos/config/express/expressDebug.p7b",
+          "certpath": "/Users/jac/.ohos/config/express/express.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "bundleType": "app",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "atomic",
+        "signingConfig": "default",
+        "bundleType": "app",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "capabilities": [
+      {
+        "bundleName": "com.atomicservice.6917614461242904059",
+        "config": [
+          {
+            "name": "Map Kit",
+            "capability": "com.huawei.service.mapkit"
+          }
+        ]
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./products/entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default",
+            "atomic"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lib_foundation",
+      "srcPath": "./commons/lib_foundation"
+    },
+    {
+      "name": "business_home",
+      "srcPath": "./features/business_home"
+    },
+    {
+      "name": "business_order",
+      "srcPath": "./features/business_order"
+    },
+    {
+      "name": "business_mine",
+      "srcPath": "./features/business_mine"
+    },
+    {
+      "name": "module_template",
+      "srcPath": "./components/module_template"
+    },
+    {
+      "name": "module_auth",
+      "srcPath": "./components/module_auth"
+    },
+    {
+      "name": "membership",
+      "srcPath": "./components/membership"
+    },
+    {
+      "name": "module_advertisement",
+      "srcPath": "./components/module_advertisement"
+    },
+    {
+      "name": "address_management",
+      "srcPath": "./components/address_management"
+    },
+    {
+      "name": "coupons",
+      "srcPath": "./components/coupons"
+    },
+    {
+      "name": "collect_personal_info",
+      "srcPath": "./components/collect_personal_info"
+    },
+    {
+      "name": "aggregated_login",
+      "srcPath": "./components/aggregated_login"
+    },
+    {
+      "name": "aggregated_payment",
+      "srcPath": "./components/aggregated_payment"
+    },
+    {
+      "name": "notice_center",
+      "srcPath": "./components/notice_center"
+    },
+    {
+      "name": "feedback",
+      "srcPath": "./components/feedback"
+    },
+    {
+      "name": "app_setting",
+      "srcPath": "./components/app_setting"
+    },
+    {
+      "name": "business_benefits",
+      "srcPath": "./features/business_benefits"
+    }
+  ]
+}
